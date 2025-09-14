@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,76 +27,76 @@ namespace QuanLyBHXH
         }
         public void AddEmployeeInteractive()
         {
-            Console.Write("Nhập mã BHXH (10 chữ số): ");
+            Console.Write("Nhap ma BHXH (10 chu so): ");
             string id = Console.ReadLine()?.Trim();
             if (!InputHelper.IsValidBhxhId(id))
             {
-                Console.WriteLine("Mã BHXH không hợp lệ (phải 10 chữ số).");
+                Console.WriteLine("Ma BHXH khong hop le (phai 10 chu so).");
                 return;
             }
             if (FindById(id) != null)
             {
-                Console.WriteLine("Mã BHXH đã tồn tại.");
+                Console.WriteLine("Ma BHXH da ton tai.");
                 return;
             }
-            Console.Write("Họ và tên: ");
+            Console.Write("Ho va ten: ");
             string name = Console.ReadLine()?.Trim();
-            Console.Write("Giới tính (Nam/Nu): ");
+            Console.Write("Gioi tinh (Nam/Nu): ");
             string gender = Console.ReadLine()?.Trim();
-            Console.Write("Ngày sinh (yyyy-MM-dd): ");
+            Console.Write("Ngay sinh (yyyy-MM-dd): ");
             if (!DateTime.TryParse(Console.ReadLine()?.Trim(), out DateTime dob))
             {
-                Console.WriteLine("Ngày sinh không hợp lệ.");
+                Console.WriteLine("Ngay sinh khong hop le.");
                 return;
             }
             var e = new Employee(id, name, gender.Equals("Nam", StringComparison.OrdinalIgnoreCase) ? "Nam" : "Nu", dob);
             employees.Add(e);
-            Console.WriteLine("Thêm thành công.");
+            Console.WriteLine("Them thanh cong.");
         }
 
         public void AddPeriodsInteractive()
         {
-            Console.Write("Nhập mã BHXH để thêm giai đoạn: ");
+            Console.Write("Nhap ma BHXH de them giai doan: ");
             var id = Console.ReadLine()?.Trim();
             var e = FindById(id);
             if (e == null)
             {
-                Console.WriteLine("Không tìm thấy mã BHXH.");
+                Console.WriteLine("Khong tim thay ma BHXH.");
                 return;
             }
-            Console.WriteLine($"Thông tin: {e}");
-            Console.Write("Nhập số giai đoạn K (>0): ");
+            Console.WriteLine($"Thong tin: {e}");
+            Console.Write("Nhap so giai doan K (>0): ");
             if (!int.TryParse(Console.ReadLine()?.Trim(), out int k) || k <= 0)
             {
-                Console.WriteLine("K không hợp lệ.");
+                Console.WriteLine("K khong hop le.");
                 return;
             }
             for (int i = 1; i <= k; i++)
             {
-                Console.WriteLine($"Giai đoạn {i}:");
+                Console.WriteLine($"Giai doan {i}:");
                 try
                 {
-                    int sm = InputHelper.ReadInt("Từ tháng (1-12): ");
-                    int sy = InputHelper.ReadInt("Từ năm: ");
-                    int em = InputHelper.ReadInt("Đến tháng (1-12): ");
-                    int ey = InputHelper.ReadInt("Đến năm: ");
-                    double sal = InputHelper.ReadDouble("Mức lương đóng (VNĐ/tháng): ");
+                    int sm = InputHelper.ReadInt("Tu thang (1-12): ");
+                    int sy = InputHelper.ReadInt("Tu nam: ");
+                    int em = InputHelper.ReadInt("Den thang (1-12): ");
+                    int ey = InputHelper.ReadInt("Den nam: ");
+                    double sal = InputHelper.ReadDouble("Muc luong dong (VND/thang): ");
                     var p = new Period(sm, sy, em, ey, sal);
                     if (!p.IsValid())
                     {
-                        Console.WriteLine("Giai đoạn không hợp lệ (thời gian). Nhập lại.");
+                        Console.WriteLine("Giai doan khong hop le (thoi gian). Nhap lai.");
                         i--; continue;
                     }
                     if (!e.AddPeriod(p))
                     {
-                        Console.WriteLine("Giai đoạn trùng lặp với giai đoạn đã có. Nhập lại.");
+                        Console.WriteLine("Giai doan trung lap voi giai doan da co. Nhap lai.");
                         i--; continue;
                     }
-                    Console.WriteLine("Thêm giai đoạn thành công.");
+                    Console.WriteLine("Them giai doan thanh cong.");
                 }
                 catch (Exception)
                 {
-                    Console.WriteLine("Dữ liệu giai đoạn không hợp lệ. Nhập lại.");
+                    Console.WriteLine("Du lieu giai doan khong hop le. Nhap lai.");
                     i--; continue;
                 }
             }
@@ -104,7 +104,7 @@ namespace QuanLyBHXH
 
         public void PrintAllEmployees()
         {
-            Console.WriteLine("\n--- Danh sách người lao động ---");
+            Console.WriteLine("\n--- Danh sach nguoi lao dong ---");
             int nam = 0, nu = 0;
             foreach (var e in employees)
             {
@@ -112,31 +112,31 @@ namespace QuanLyBHXH
                 if (e.Gender.Equals("Nam", StringComparison.OrdinalIgnoreCase)) nam++;
                 else nu++;
             }
-            Console.WriteLine($"Tổng Nam: {nam} | Tổng Nữ: {nu}");
+            Console.WriteLine($"Tong Nam: {nam} | Tong Nu: {nu}");
         }
 
         public void PrintParticipants()
         {
-            Console.WriteLine("\n--- Danh sách người có tham gia BHXH ---");
+            Console.WriteLine("\n--- Danh sach nguoi co tham gia BHXH ---");
             foreach (var e in employees)
             {
                 if (e.HasAnyPeriod())
                 {
-                    Console.WriteLine($"{e.ID} | {e.Name} | Tổng tháng: {e.TotalMonths()} | Tổng đóng (đơn giản): {e.TotalContributedSimple():N0}");
+                    Console.WriteLine($"{e.ID} | {e.Name} | Tong thang: {e.TotalMonths()} | Tong dong (don gian): {e.TotalContributedSimple():N0}");
                 }
             }
         }
 
         public void PrintComputeOneTimeAll()
         {
-            Console.WriteLine("\n--- Tính tiền BHXH 1 lần (approx) ---");
+            Console.WriteLine("\n--- Tinh tien BHXH 1 lan (approx) ---");
             foreach (var e in employees)
             {
                 if (!e.HasAnyPeriod()) continue;
                 var val = BHXHCalculator.ComputeOneTime(e);
-                Console.WriteLine($"{e.ID} | {e.Name} | Tháng đóng: {e.TotalMonths()} | BHXH 1 lần (approx): {val:N0}");
+                Console.WriteLine($"{e.ID} | {e.Name} | Thang dong: {e.TotalMonths()} | BHXH 1 lan (approx): {val:N0}");
             }
-            Console.WriteLine("Lưu ý: Kết quả là tham khảo (không áp hệ số trượt giá chi tiết).");
+            Console.WriteLine("Luu y: Ket qua la tham khao (khong ap he so truot gia chi tiet).");
         }
 
         private Employee FindById(string id) => employees.Find(x => x.ID == id);
