@@ -14,7 +14,7 @@ namespace QuanLyBHXH
             manager.CreateData();
             while (true)
             {
-                Console.WriteLine("\n=== QUAN LY BHXH - Console ===");
+                Console.WriteLine("\n=== QUAN LY BHXH ===");
                 Console.WriteLine("1. Them moi nguoi lao dong");
                 Console.WriteLine("2. Them giai doan dong BHXH cho nguoi lao dong");
                 Console.WriteLine("3. Xuat danh sach nguoi lao dong (thong ke Nam/Nu)");
