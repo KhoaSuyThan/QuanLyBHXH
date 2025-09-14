@@ -9,7 +9,7 @@ namespace QuanLyBHXH
     internal class EmployeeManager
     {
         private List<Employee> employees = new List<Employee>();
-        
+
         public void CreateData()
         {
             var e1 = new Employee("1234567890", "Nguyen Van A", "Nam", new DateTime(1988, 5, 20));
@@ -122,22 +122,27 @@ namespace QuanLyBHXH
             {
                 if (e.HasAnyPeriod())
                 {
-                    Console.WriteLine($"{e.ID} | {e.Name} | Tong thang: {e.TotalMonths()} | Tong dong (don gian): {e.TotalContributedSimple():N0}");
+                    double total = e.TotalContributedWithFactor(FactorProvider.DefaultFactors);
+                    Console.WriteLine($"{e.ID} | {e.Name} | Tong thang: {e.TotalMonths()} | Tong dong (co he so): {total:N0}");
                 }
             }
         }
 
+
+
         public void PrintComputeOneTimeAll()
         {
             Console.WriteLine("\n--- Tinh tien BHXH 1 lan (approx) ---");
+            var factors = FactorProvider.DefaultFactors; // lấy bảng hệ số
             foreach (var e in employees)
             {
                 if (!e.HasAnyPeriod()) continue;
-                var val = BHXHCalculator.ComputeOneTime(e);
+                var val = BHXHCalculator.ComputeOneTime(e, factors);
                 Console.WriteLine($"{e.ID} | {e.Name} | Thang dong: {e.TotalMonths()} | BHXH 1 lan (approx): {val:N0}");
             }
-            Console.WriteLine("Luu y: Ket qua la tham khao (khong ap he so truot gia chi tiet).");
+            Console.WriteLine("Luu y: Ket qua la tham khao (da ap he so truot gia mac dinh).");
         }
+
 
         private Employee FindById(string id) => employees.Find(x => x.ID == id);
     }
