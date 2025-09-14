@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,7 +20,7 @@ namespace QuanLyBHXH
         {
             Console.Write(prompt);
             var s = Console.ReadLine();
-            if (!int.TryParse(s, out int r)) throw new Exception("Invalid int");
+            if (!int.TryParse(s, out int r)) throw new Exception("Không hợp lệ");
             return r;
         }
 
@@ -29,7 +29,7 @@ namespace QuanLyBHXH
             {
                 Console.Write(prompt);
                 var s = Console.ReadLine();
-                if (!double.TryParse(s, out double r)) throw new Exception("Invalid double");
+                if (!double.TryParse(s, out double r)) throw new Exception("Không hợp lệ");
                 return r;
             }
         }
