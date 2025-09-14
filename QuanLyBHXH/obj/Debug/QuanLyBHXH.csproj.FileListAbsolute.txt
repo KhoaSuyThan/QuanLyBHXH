@@ -1,0 +1,7 @@
+C:\Users\aaa\source\repos\QuanLyBHXH\QuanLyBHXH\obj\Debug\QuanLyBHXH.csproj.AssemblyReference.cache
+C:\Users\aaa\source\repos\QuanLyBHXH\QuanLyBHXH\obj\Debug\QuanLyBHXH.csproj.CoreCompileInputs.cache
+C:\Users\aaa\source\repos\QuanLyBHXH\QuanLyBHXH\bin\Debug\QuanLyBHXH.exe.config
+C:\Users\aaa\source\repos\QuanLyBHXH\QuanLyBHXH\bin\Debug\QuanLyBHXH.exe
+C:\Users\aaa\source\repos\QuanLyBHXH\QuanLyBHXH\bin\Debug\QuanLyBHXH.pdb
+C:\Users\aaa\source\repos\QuanLyBHXH\QuanLyBHXH\obj\Debug\QuanLyBHXH.exe
+C:\Users\aaa\source\repos\QuanLyBHXH\QuanLyBHXH\obj\Debug\QuanLyBHXH.pdb

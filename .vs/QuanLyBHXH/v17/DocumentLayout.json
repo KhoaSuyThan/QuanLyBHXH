@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|c:\\users\\aaa\\source\\repos\\quanlybhxh\\quanlybhxh\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|solutionrelative:quanlybhxh\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\quanlybhxh\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|solutionrelative:quanlybhxh\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\quanlybhxh\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|solutionrelative:quanlybhxh\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\quanlybhxh\\bhxhcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|solutionrelative:quanlybhxh\\bhxhcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\quanlybhxh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|solutionrelative:quanlybhxh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\quanlybhxh\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|solutionrelative:quanlybhxh\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\quanlybhxh\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|solutionrelative:quanlybhxh\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\quanlybhxh\\period.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3F7EFA-8AC4-44DD-A01F-FD56DDF85594}|QuanLyBHXH\\QuanLyBHXH.csproj|solutionrelative:quanlybhxh\\period.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\Employee.cs",
+              "RelativeDocumentMoniker": "QuanLyBHXH\\Employee.cs",
+              "ToolTip": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\Employee.cs",
+              "RelativeToolTip": "QuanLyBHXH\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T00:42:56.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "QuanLyBHXH\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "QuanLyBHXH\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T04:00:56.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\App.config",
+              "RelativeDocumentMoniker": "QuanLyBHXH\\App.config",
+              "ToolTip": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\App.config",
+              "RelativeToolTip": "QuanLyBHXH\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-14T03:51:34.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InputHelper.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\InputHelper.cs",
+              "RelativeDocumentMoniker": "QuanLyBHXH\\InputHelper.cs",
+              "ToolTip": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\InputHelper.cs",
+              "RelativeToolTip": "QuanLyBHXH\\InputHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T03:02:28.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeManager.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\EmployeeManager.cs",
+              "RelativeDocumentMoniker": "QuanLyBHXH\\EmployeeManager.cs",
+              "ToolTip": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\EmployeeManager.cs",
+              "RelativeToolTip": "QuanLyBHXH\\EmployeeManager.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAkwIUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T01:56:44.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Period.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\Period.cs",
+              "RelativeDocumentMoniker": "QuanLyBHXH\\Period.cs",
+              "ToolTip": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\Period.cs",
+              "RelativeToolTip": "QuanLyBHXH\\Period.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwCEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T01:56:23.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BHXHCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\BHXHCalculator.cs",
+              "RelativeDocumentMoniker": "QuanLyBHXH\\BHXHCalculator.cs",
+              "ToolTip": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\BHXHCalculator.cs",
+              "RelativeToolTip": "QuanLyBHXH\\BHXHCalculator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T00:43:14.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyBHXH\\Program.cs",
+              "ToolTip": "C:\\Users\\aaa\\source\\repos\\QuanLyBHXH\\QuanLyBHXH\\Program.cs",
+              "RelativeToolTip": "QuanLyBHXH\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T00:31:00.699Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
