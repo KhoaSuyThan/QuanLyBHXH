@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,14 +14,14 @@ namespace QuanLyBHXH
             manager.CreateData();
             while (true)
             {
-                Console.WriteLine("\n=== QUẢN LÝ BHXH - Console ===");
-                Console.WriteLine("1. Thêm mới người lao động");
-                Console.WriteLine("2. Thêm giai đoạn đóng BHXH cho người lao động");
-                Console.WriteLine("3. Xuất danh sách người lao động (thống kê Nam/Nữ)");
-                Console.WriteLine("4. Xuất danh sách người lao động có tham gia BHXH và tổng tiền đã đóng");
-                Console.WriteLine("5. Tính tiền BHXH 1 lần cho những người có tham gia (2024 - đơn giản)");
-                Console.WriteLine("6. Thoát");
-                Console.Write("Chọn: ");
+                Console.WriteLine("\n=== QUAN LY BHXH - Console ===");
+                Console.WriteLine("1. Them moi nguoi lao dong");
+                Console.WriteLine("2. Them giai doan dong BHXH cho nguoi lao dong");
+                Console.WriteLine("3. Xuat danh sach nguoi lao dong (thong ke Nam/Nu)");
+                Console.WriteLine("4. Xuat danh sach nguoi lao dong co tham gia BHXH va tong tien da dong");
+                Console.WriteLine("5. Tinh tien BHXH 1 lan cho nhung nguoi co tham gia (2024 - don gian)");
+                Console.WriteLine("6. Thoat");
+                Console.Write("Chon: ");
                 var opt = Console.ReadLine()?.Trim();
                 switch (opt)
                 {
@@ -43,7 +43,7 @@ namespace QuanLyBHXH
                     case "6":
                         return;
                     default:
-                        Console.WriteLine("Lựa chọn không hợp lệ.");
+                        Console.WriteLine("Lua chon khong hop le.");
                         break;
                 }
             }
