@@ -12,6 +12,7 @@ namespace QuanLyBHXH
 
         public void CreateData()
         {
+            Console.WriteLine("Taoooo là Nammmmmmmmmm");
             var e1 = new Employee("1234567890", "Nguyen Van A", "Nam", new DateTime(1988, 5, 20));
             e1.AddPeriod(new Period(8, 2020, 7, 2021, 34000000));
             e1.AddPeriod(new Period(9, 2021, 7, 2024, 44000000));
